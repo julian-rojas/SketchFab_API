@@ -30,7 +30,7 @@ var AppView = Backbone.View.extend({
             ui_controls: 0,
             ui_stop: 0,
             ui_watermark: 0,
-            autospin: 0.1
+            autospin: 0.0
         };
 
         this.initViewer(this.initOptions.bind(this));
