@@ -13881,7 +13881,7 @@ module.exports = OptionColletion;
 
 },{"../config.js":6,"../models/Option":7,"backbone":2,"jquery":3,"underscore":4}],6:[function(require,module,exports){
 var config = {
-    URLID: '61a7dabd1a104db1a1b14d7977a78079',
+    URLID: 'b5cfed180f6643c395de8157c52e0afe',
     OPTION_PREFIX: 'option_bracelet',
     OPTION_PREFIXES: [
         'option_bracelet_',
