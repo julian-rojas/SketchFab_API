@@ -30,7 +30,8 @@ var AppView = Backbone.View.extend({
             ui_controls: 0,
             ui_stop: 0,
             ui_watermark: 0,
-            autospin: 0.0
+            autospin: 0.1,
+            autostart: 1
         };
 
         this.initViewer(this.initOptions.bind(this));
@@ -77,7 +78,7 @@ var AppView = Backbone.View.extend({
             error: function onError() {
                 console.log('Error while initializing the viewer');
             }
-        }));
+        autostart: 1}));
     },
 
     initOptions: function() {
